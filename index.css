@@ -1,0 +1,51 @@
+
+
+.third{
+    background-color: rgb(223, 209, 235);
+}
+.para1{
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flower{
+    font-size: 20px;
+    color: rgb(170, 117, 219);
+}
+.one{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(96, 79, 112);
+    margin: 15px;
+    border: 10px solid rgb(43, 3, 81);
+    box-shadow: 10px 10px rgb(146, 146, 187);
+    display: inline-block;
+}
+.two{
+    height: 200px;
+    width: 200px;
+    background-image: url(pexels-alancabello-3780058.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.three{
+    height: 500px;
+    width: 500px;
+    background-image: url(pexels-alancabello-3780058.jpg);
+    background-size: 50%;
+    background-repeat: repeat;
+
+    margin-bottom: 20px;
+}
+.four{
+    height: 50px;
+    width: 50px;
+    visibility: hidden; 
+}
+.button{
+    background-color: rgb(216, 197, 233);
+    height: 30px;
+    width: 100px;
+}
