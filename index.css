@@ -49,3 +49,23 @@
     height: 30px;
     width: 100px;
 }
+.overflow{
+    height: 200px;
+    width: 500px;
+    background-color: bisque;
+    overflow: auto;
+}
+.transition{
+    margin: 50px;
+    
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    transition: width  ease-in 2s;
+
+}
+.transition:hover{
+    width: 600px;
+    background-color: rgb(28, 65, 65);
+    transform: rotate(30deg);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cricket{
+        border: 1px solid black;
+    }
+    .cricket:hover .img{
+        transform: rotate(-60deg);
+    }
+    .ball{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: blueviolet;
+        position: relative;
+        margin-left: 40rem;
+        top: -200px;
+        transition: transform 1s ease-in  ;
+    }
+    .cricket:hover .ball{
+        transform: translate(1000px ,-500px)
+    }
+
+</style>
+<body>
+    <div class="cricket">
+        <img src="cricket-bat-cartoon-style-vector.jpg" alt="" class="img">
+        <div class="ball"></div>
+    </div>
+
+</body>
+</html>
